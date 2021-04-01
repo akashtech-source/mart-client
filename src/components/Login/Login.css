@@ -1,0 +1,53 @@
+.form-container{
+    text-align: center;
+    margin-top: 80px;
+    border: 1px solid lightgray;
+    height: 400px;
+    width: 460px;
+    margin-left: 440px;
+    border-radius: 10px;
+}
+.input-area{
+    height: 30px;
+    width: 350px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+     
+}
+.submit{
+    padding: 3px;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: rgb(0, 89, 255);
+    color: aliceblue;
+    font-size: 18px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+}
+.form-input{
+    margin-top: 70px;
+}
+.alt-login{
+    text-align: center;
+    margin-top: 20px;
+}
+.google-login{
+    height: 30px;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.facebook-login{
+    height: 30px;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+h4{
+    margin-top: -15px;
+}

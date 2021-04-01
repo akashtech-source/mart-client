@@ -1,0 +1,30 @@
+.header-container{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.title-name h1{
+    color: orange;
+}
+.title-name{
+    margin-left: 30px;
+}
+nav a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: tomato;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+nav{
+    position: relative;
+    left: 140%;
+    top: 30px;
+}
+.login-button{
+    background-color: brown;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
