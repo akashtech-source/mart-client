@@ -1,0 +1,27 @@
+.product-container{
+    float: left;
+    position: relative;
+    left: 150px;
+    margin-top: 60px;
+    margin-right: 40px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.product-container img{
+    width: 300px;
+}
+.single-product h3{
+    color: rgb(0, 132, 255);
+    font-size: 18px;
+}
+.buy-button{
+    background-color: rgb(0, 102, 255);
+    position: relative;
+    padding: 6px;
+    color: white;
+    border-radius: 3px;
+}
+.product-container:hover{
+    box-shadow: 10px 10px 10px lightgray;
+}
