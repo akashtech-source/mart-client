@@ -5,7 +5,7 @@ const Checkout = () => {
     let {id} = useParams();
     const [products, setProducts] = useState({})
     useEffect(() => {
-        const url = `https://sleepy-sands-03275.herokuapp.com/checkout/${id}`;
+        const url = `http://localhost:5000/checkout/${id}`;
         fetch(url)
         .then(res => res.json())
         .then(data => setProducts(data[0]))
@@ -15,11 +15,14 @@ const Checkout = () => {
     return (
         <div className="selected-product">
             <div>
-                <h1>Checkout Page</h1>
-            <h3>Product Name: {products.name}</h3>
-            <h3>Product Price: {products.price}</h3>
-            <h3>Product Quantity: 1</h3>
-            <button className="search-button">Order</button>
+                <h1>Checkout Cart</h1>
+            <div className="check-item">
+                <h3>Product Name: <span>{products.name}</span> </h3>
+                <h3>Product Price: <span>{products.price}</span></h3>
+                <h3>Product Quantity: <span>1</span></h3>
+                <h3>Total: <span>{products.price}</span></h3>
+            </div>
+            <button className="order-button">Order</button>
             </div>
             
         </div>

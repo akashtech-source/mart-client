@@ -1,34 +1,39 @@
 .form-container{
     text-align: center;
     margin-top: 80px;
-    border: 1px solid lightgray;
+    background-color: rgb(160, 235, 235);
     height: 400px;
     width: 460px;
     margin-left: 440px;
     border-radius: 10px;
 }
+.form-container h1{
+    color: purple;
+    position: relative;
+    top: 30px;
+}
 .input-area{
     height: 30px;
     width: 350px;
     margin-top: 10px;
-    border-radius: 5px;
-    border: 1px solid grey;
+    border: none;
      
 }
 .submit{
     padding: 3px;
     width: 300px;
     height: 30px;
-    margin-top: 20px;
-    background-color: rgb(0, 89, 255);
+    margin-top: 60px;
+    background-color: rgb(238, 3, 140);
     color: aliceblue;
     font-size: 18px;
     border: 1px solid lightgray;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 .form-input{
     margin-top: 70px;
 }
+
 .alt-login{
     text-align: center;
     margin-top: 20px;

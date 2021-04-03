@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyD-EVTO3RZnIx0CMEB9x-sfjA0UP11DXZw",
-    authDomain: "superfood-village.firebaseapp.com",
-    projectId: "superfood-village",
-    storageBucket: "superfood-village.appspot.com",
-    messagingSenderId: "84055876481",
-    appId: "1:84055876481:web:b3b9317abc239cd6aa7e80"
-  };
+  apiKey: "AIzaSyAr3UtnO9t95PisZAruENwhiCCje4oJV1w",
+  authDomain: "login-auth-123e0.firebaseapp.com",
+  projectId: "login-auth-123e0",
+  storageBucket: "login-auth-123e0.appspot.com",
+  messagingSenderId: "932283816829",
+  appId: "1:932283816829:web:5a0500381f5ad25f86ca14"
+};
 
   export default firebaseConfig;

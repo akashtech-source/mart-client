@@ -21,7 +21,9 @@ function App() {
   const [loggedInUser, setLoggedInUser] = useState({});
   return (
     <UserContext.Provider value ={[loggedInUser, setLoggedInUser]}>
-    <p>Name: {loggedInUser.name}</p>
+   <div className="user-name">
+   <p>{loggedInUser.name}</p>
+   </div>
     <Router>
       <Switch>
       <Route exact path="/">

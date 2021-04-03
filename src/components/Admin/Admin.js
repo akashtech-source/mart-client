@@ -44,7 +44,7 @@ const Admin = () => {
     return (
         <div className="inventory">
         <div className="admin-container">
-            <Link to="/home"><h1>SuperFood Village</h1></Link>
+            
             <div className="manage">
                 <h3 className="manage-product product">Manage Product</h3>
              <h3 className="add-product product">Add Product</h3>
@@ -54,12 +54,12 @@ const Admin = () => {
         </div>
         <div className="upload-container">
         <form onSubmit={handleSubmit(onSubmit)}>
-      <input name="name" defaultValue="Add Product" ref={register} />
+      <input className="input-area" name="name" defaultValue="product name" ref={register} />
       <br/>
-      <input name="price" defaultValue="Price" type="text" ref={register}/>
+      <input className="input-area" name="price" defaultValue="Price" type="text" ref={register}/>
       <input name="exampleRequired" type="file" onChange={handleImageUpload} />
       <br/>
-      <input type="submit" />
+      <input className="submit" type="submit" />
     </form>
         </div>
         

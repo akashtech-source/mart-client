@@ -7,7 +7,7 @@ const Home = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch('https://sleepy-sands-03275.herokuapp.com/products')
+        fetch('http://localhost:5000/products')
         .then(res => res.json())
         .then(data => setProducts(data))
     },[])
@@ -17,7 +17,7 @@ const Home = () => {
             <Header></Header>
             <div className="search-field">
                 <input className="input-search" placeholder="Search an item" type="text"/>
-                <button className="search-button">Search</button>
+                <button className="search-button">Find Item</button>
             </div>
             {
                 products.map(product => <Product product={product}></Product>)

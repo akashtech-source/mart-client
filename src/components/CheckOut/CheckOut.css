@@ -7,14 +7,30 @@
     
 }
 .selected-product h3{
-    color: green;
+    color: rgb(2, 0, 128);
 }
 .selected-product{
     position: relative;
     left: 250px;
     width: 800px;
 }
-
-.search-button:hover{
+.order-button{
+    background-color: rgb(162, 0, 255);
+    padding: 8px;
+    color: white;
+    font-size: 17px;
+    margin-left: 740px;
+    margin-top: 10px;
+    border: 1px solid grey;
+}
+.order-button:hover{
     box-shadow: 3px 3px 3px grey;
+}
+.check-item{
+    border: 1px dotted grey;
+    padding: 15px;
+    text-align: right;
+}
+span{
+    color: rgb(204, 0, 85);
 }
